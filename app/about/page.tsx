@@ -10,6 +10,7 @@ export default function AboutPage() {
       </h1>
 
       <div className="space-y-6 text-stone-700 leading-8 max-w-2xl">
+
         <p>
           I am a marketing and growth strategist focused on building scalable
           systems across complex, international organizations.
@@ -18,8 +19,8 @@ export default function AboutPage() {
         <p>
           My work sits at the intersection of segmentation, experimentation,
           lifecycle design, and cross-functional execution. Rather than focusing
-          on individual campaigns or channels, I concentrate on the underlying
-          structures that determine how marketing systems perform over time.
+          on individual campaigns or channels, I concentrate on the structural
+          systems that determine how marketing organizations perform over time.
         </p>
 
         <p>
@@ -31,24 +32,63 @@ export default function AboutPage() {
 
         <p>
           Much of my work has involved translating analytical insights into
-          operational frameworks that teams across different markets and
-          functions can actually adopt. This often means bridging analytics,
-          product, marketing, and leadership perspectives to turn models into
-          working systems.
+          operational frameworks that teams across markets and functions can
+          realistically adopt.
         </p>
 
-        <p>
-          I am particularly interested in environments where marketing must
-          operate across multiple markets, stakeholder groups, and data maturity
-          levels. These contexts reward structural thinking and careful
-          alignment between economic signals and execution.
-        </p>
-
-        <p>
-          I am currently based in Spain and open to strategic marketing and
-          growth leadership opportunities across Europe, including remote roles.
-        </p>
       </div>
+
+      <section className="mt-16">
+        <h2
+          className={`${serif.className} text-2xl font-medium mb-6 text-stone-900`}
+        >
+          Capabilities
+        </h2>
+
+        <ul className="space-y-2 text-stone-700 leading-7 max-w-2xl">
+          <li>Marketing segmentation and lifecycle systems</li>
+          <li>Growth experimentation and measurement</li>
+          <li>International marketing operations</li>
+          <li>Marketing analytics and SQL</li>
+          <li>Cross-functional program leadership</li>
+        </ul>
+      </section>
+
+      <section className="mt-16">
+        <h2
+          className={`${serif.className} text-2xl font-medium mb-6 text-stone-900`}
+        >
+          Languages
+        </h2>
+
+        <ul className="space-y-2 text-stone-700 leading-7">
+          <li>Spanish — Native</li>
+          <li>French — Fluent</li>
+          <li>English — Fluent</li>
+          <li>German — Intermidiate</li>
+        </ul>
+      </section>
+
+      <section className="mt-16">
+        <h2
+          className={`${serif.className} text-2xl font-medium mb-6 text-stone-900`}
+        >
+          Contact
+        </h2>
+
+        <div className="space-y-2 text-stone-700">
+          <p>Email: juliocottaviano@gmail.com</p>
+          <p>
+            LinkedIn:{" "}
+            <a
+              href="https://linkedin.com/in/juliocottaviano"
+              className="underline hover:text-stone-500"
+            >
+              linkedin.com/in/juliocottaviano
+            </a>
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
