@@ -107,8 +107,8 @@ export default function Home() {
 
       <section className="max-w-2xl">
         <p className="text-stone-700 leading-8">
-          Based in Spain and open to strategic marketing and growth leadership
-          opportunities across Western Europe.
+          Based between Spain and Germany and open to strategic marketing and growth leadership
+          opportunities.
         </p>
 
         <p className="mt-4">
