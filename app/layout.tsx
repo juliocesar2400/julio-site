@@ -11,14 +11,21 @@ export const metadata = {
   description:
     "Marketing & Growth Systems Strategist designing scalable marketing systems across international markets.",
   openGraph: {
-    title: "Julio Ottaviano — Marketing & Growth Systems Strategist",
-    description:
-      "Designing scalable marketing systems that connect segmentation, unit economics, and execution across international markets.",
-    url: "https://julioottaviano.com",
-    siteName: "Julio Ottaviano",
-    locale: "en_US",
-    type: "website",
-  },
+  title: "Julio Ottaviano — Marketing & Growth Systems Strategist",
+  description:
+    "Designing scalable marketing systems that connect segmentation, unit economics, and execution across international markets.",
+  url: "https://julio-site-delta.vercel.app",
+  siteName: "Julio Ottaviano",
+  images: [
+    {
+      url: "/og-image.png",
+      width: 1200,
+      height: 630,
+    },
+  ],
+  locale: "en_US",
+  type: "website",
+},
   twitter: {
     card: "summary_large_image",
     title: "Julio Ottaviano — Marketing & Growth Systems Strategist",
