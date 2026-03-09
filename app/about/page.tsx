@@ -77,7 +77,9 @@ export default function AboutPage() {
         </h2>
 
         <div className="space-y-2 text-stone-700">
-          <p>Email: juliocottaviano@gmail.com</p>
+          <p><a href="mailto:juliocottaviano@gmail.com" className="underline hover:text-stone-500">
+  juliocottaviano@gmail.com
+</a></p>
           <p>
             LinkedIn:{" "}
             <a
@@ -87,6 +89,15 @@ export default function AboutPage() {
               linkedin.com/in/juliocottaviano
             </a>
           </p>
+          <p>
+  GitHub:{" "}
+  <a
+    href="https://github.com/juliocesar2400"
+    className="underline hover:text-stone-500"
+  >
+    github.com/juliocesar2400
+  </a>
+</p>
         </div>
       </section>
     </main>
